@@ -14,25 +14,25 @@ function renderLicenseSection(license) {}
 function generateMarkdown(answers) {
   return `
 
+  # **Title** 
+  # **${answers.title}**
+
+  ## Description 
+  ${answers.description}
+
   ## Table of Content
   * [Project description](#Description)
   * [Usage](#Usage)
   * [Contributing](#Contributing)
   * [Installation](#Installation)
-  * [Contact](#Contact)
+  * [Contact](#ContactDetails)
   * [Licence](#Licence)
-
-  # **Title** 
-  ${answers.title}
-
-  ## Description 
-  ${answers.description}
-
-  ## Installation
-  ${answers.installation}
 
   ## Usage
   ${answers.usage}
+
+  ## Installation
+  ${answers.installation}
 
   ## Contribution
   ${answers.contributing}

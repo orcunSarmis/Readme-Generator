@@ -55,16 +55,7 @@ const questions = [
     }
 ];
 
-// TODO: Create a function to write README file
- fs.writeToFile('README.md', md, function(err) {
-     if (err) {
-         console.log('Could not save file.', err);
-     } else {
-         console.log('Success: new README.md file generated inside the current folder.');
-     }
- }); 
- {
-}
+
 
 // TODO: Create a function to initialize app
 function init() {}
@@ -76,6 +67,18 @@ function askToUser() {
     return inquirer.prompt(questions)
     .then((answers) => {
         const md = generateMarkdown(answers);
+
+        // TODO: Create a function to write README file
+        fs.writeFile('README.md', md, function(err) {
+            if (err) {
+                console.log('Could not save file.', err);
+            } else {
+                console.log('Success: new README.md file generated inside the current folder.');
+            }
+        }); 
+        {
+        }
+
         console.log(md);
         return answers
     })
@@ -83,4 +86,4 @@ function askToUser() {
         console.log(error)
     })
 }
-askToUser(writeToFile);
+askToUser();
