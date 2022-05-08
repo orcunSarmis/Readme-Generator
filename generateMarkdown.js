@@ -1,10 +1,30 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+// function renderLicenseBadge(license) {
+
+//   const badges = {
+//     MIT: '',
+//     APACHE 2.0: '',
+//     GPL 3.0: '',
+//     BSD 3: '',
+//     None: ''
+
+//   }
+// }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+// function renderLicenseLink(license) {
+
+//   const licenseLink = {
+//     MIT: '',
+//     APACHE 2.0: '',
+//     GPL 3.0: '',
+//     BSD 3: '',
+//     None: ''
+    
+//   }
+// }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -15,6 +35,8 @@ function generateMarkdown(answers) {
   return `
 
   # **${answers.title}**
+
+  ![GitHub](https://img.shields.io/badge/<LABEL>-${answers.license}-<COLOR>)
 
   ## Description 
   ${answers.description}
@@ -29,7 +51,7 @@ function generateMarkdown(answers) {
   * [Questions](#questions)
 
   ## Usage
-  
+
   ${answers.usage}
 
   ## Contributing
@@ -38,10 +60,14 @@ function generateMarkdown(answers) {
 
   ## Installation
 
+  To install necessary dependencies, run the following command:
+
   ${answers.installation}
 
   ## Tests
 
+  To run tests, run the following command:
+  
   ${answers.tests}
 
   ## License
@@ -50,7 +76,7 @@ function generateMarkdown(answers) {
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at ${answers.email}. you can find more of my work at ${answers.github}.
+  If you have any questions about the repo, open an issue or contact me directly at ${answers.email}. You can find more of my work at [${answers.github}](https://github.com/${answers.github}/).
 
 `;
 }
