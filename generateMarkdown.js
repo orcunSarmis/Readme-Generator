@@ -14,40 +14,44 @@ function renderLicenseSection(license) {}
 function generateMarkdown(answers) {
   return `
 
-  # **Title** 
   # **${answers.title}**
 
   ## Description 
   ${answers.description}
 
   ## Table of Content
-  * [Project description](#Description)
-  * [Usage](#Usage)
-  * [Contributing](#Contributing)
-  * [Installation](#Installation)
-  * [Contact](#ContactDetails)
-  * [Licence](#Licence)
+
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Installation](#installation)
+  * [Tests](#tests)
+  * [Licence](#licence)
+  * [Questions](#questions)
 
   ## Usage
+  
   ${answers.usage}
 
-  ## Installation
-  ${answers.installation}
+  ## Contributing
 
-  ## Contribution
   ${answers.contributing}
 
-  ## Email
-  ${answers.email}
+  ## Installation
 
-  ## Github
-  ${answers.github}
+  ${answers.installation}
 
   ## Tests
+
   ${answers.tests}
 
   ## License
-  ${answers.license}
+
+  This project  is licensed under the ${answers.license} license.
+
+  ## Questions
+
+  If you have any questions about the repo, open an issue or contact me directly at ${answers.email}. you can find more of my work at ${answers.github}.
+
 `;
 }
 
