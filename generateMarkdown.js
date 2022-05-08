@@ -1,30 +1,16 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-// function renderLicenseBadge(license) {
+function renderLicenseBadge(license) {
+    return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`
+  }
 
-//   const badges = {
-//     MIT: '',
-//     APACHE 2.0: '',
-//     GPL 3.0: '',
-//     BSD 3: '',
-//     None: ''
-
-//   }
-// }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-// function renderLicenseLink(license) {
+function renderLicenseLink(license) {
 
-//   const licenseLink = {
-//     MIT: '',
-//     APACHE 2.0: '',
-//     GPL 3.0: '',
-//     BSD 3: '',
-//     None: ''
-    
-//   }
-// }
+
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -36,7 +22,8 @@ function generateMarkdown(answers) {
 
   # **${answers.title}**
 
-  ![GitHub](https://img.shields.io/badge/<LABEL>-${answers.license}-<COLOR>)
+
+  ${renderLicenseBadge(answers.license)}
 
   ## Description 
   ${answers.description}
