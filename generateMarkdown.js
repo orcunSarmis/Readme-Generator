@@ -63,7 +63,7 @@ function generateMarkdown(answers) {
 
   ## License
 
-  This project  is licensed under the ${answers.license} license.
+  This project is licensed under the ${answers.license} license.
 
   ## Questions
 
