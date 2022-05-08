@@ -1,12 +1,12 @@
 
 
-  # **t**
+  # **had**
 
 
-  
+  ![GitHub license](https://img.shields.io/badge/license-APACHE 2.0-blue.svg)
 
   ## Description 
-  y
+  jet
 
   ## Table of Content
 
@@ -19,29 +19,29 @@
 
   ## Usage
 
-  o
+  ted
 
   ## Contributing
 
-  p
+  pet
 
   ## Installation
 
   To install necessary dependencies, run the following command:
 
-  h
+  bet
 
   ## Tests
 
   To run tests, run the following command:
   
-  t
+  npm
 
   ## License
 
-  This project  is licensed under the None license.
+  This project  is licensed under the APACHE 2.0 license.
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at e. You can find more of my work at [john](https://github.com/john/).
+  If you have any questions about the repo, open an issue or contact me directly at h@,,. You can find more of my work at [john](https://github.com/john/).
 
