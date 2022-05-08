@@ -5,7 +5,7 @@ function renderLicenseBadge(license) {
   if (license === 'None') {
     return '';
   }else {
-    return `![GitHub license](https://img.shields.io/badge/license-${license.trim()}-blue.svg)`
+    return `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)`
     }
   }
 
@@ -13,7 +13,7 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-
+    // mit:'[MIT](https://choosealicense.com/licenses/mit/)',
 
 }
 
