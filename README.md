@@ -1,12 +1,12 @@
 
 
-  # **TT**
+  # **TTT**
 
 
-  ![GitHub license](https://img.shields.io/badge/license-BSD 3-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description 
-  YY
+  YYY
 
   ## Table of Content
 
@@ -19,29 +19,29 @@
 
   ## Usage
 
-  PP
+  PPP
 
   ## Contributing
 
-  UU
+  LLL
 
   ## Installation
 
   To install necessary dependencies, run the following command:
 
-  PP
+  GGG
 
   ## Tests
 
   To run tests, run the following command:
   
-  KK
+  TTT
 
   ## License
 
-  This project  is licensed under the BSD 3 license.
+  This project  is licensed under the MIT license.
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at JJ. You can find more of my work at [john](https://github.com/john/).
+  If you have any questions about the repo, open an issue or contact me directly at EEE. You can find more of my work at [john](https://github.com/john/).
 
