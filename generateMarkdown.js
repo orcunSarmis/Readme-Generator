@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
   // console.log(license);
   if (license === 'None') {
-    return '';
+    return ''; // If user dont want any license returns none.
   }else {
     return `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)`
     }
@@ -13,7 +13,6 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-    // mit:'[MIT](https://choosealicense.com/licenses/mit/)',
 
 }
 
@@ -22,11 +21,11 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
+// This lines creating MD file with user input.
 function generateMarkdown(answers) {
   return `
 
   # **${answers.title}**
-
 
   ${renderLicenseBadge(answers.license)}
 
