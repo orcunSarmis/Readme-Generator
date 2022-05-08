@@ -27,7 +27,7 @@ const questions = [
     {
         type:'input',
         name:'installation',
-        message: 'What command should be run to install dependencies?'
+        message: 'What command should be run to install dependencies?' 
     },
     {
         type:'input',

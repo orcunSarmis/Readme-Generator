@@ -1,11 +1,11 @@
 
 
-  # **G**
+  # **J**
 
-  
+  ![GitHub license](https://img.shields.io/badge/license-APACHE2.0-blue.svg)
 
   ## Description 
-  G
+  J
 
   ## Table of Content
 
@@ -13,34 +13,34 @@
   * [Contributing](#contributing)
   * [Installation](#installation)
   * [Tests](#tests)
-  * [Licence](#licence)
+  * [Licence](#license)
   * [Questions](#questions)
 
   ## Usage
 
-  G
+  J
 
   ## Contributing
 
-  G
+  J
 
   ## Installation
 
   To install necessary dependencies, run the following command:
 
-  G
+  J
 
   ## Tests
 
   To run tests, run the following command:
   
-  G
+  J
 
   ## License
 
-  This project  is licensed under the None license.
+  This project is licensed under the APACHE 2.0 license.
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at G. You can find more of my work at [john](https://github.com/john/).
+  If you have any questions about the repo, open an issue or contact me directly at J. You can find more of my work at [john](https://github.com/john/).
 

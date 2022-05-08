@@ -38,7 +38,7 @@ function generateMarkdown(answers) {
   * [Contributing](#contributing)
   * [Installation](#installation)
   * [Tests](#tests)
-  * [Licence](#licence)
+  * [Licence](#license)
   * [Questions](#questions)
 
   ## Usage
