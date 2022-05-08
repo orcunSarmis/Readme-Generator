@@ -1,12 +1,12 @@
 
 
-  # **had**
+  # **q**
 
 
-  ![GitHub license](https://img.shields.io/badge/license-APACHE 2.0-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-GPL 3.0-blue.svg)
 
   ## Description 
-  jet
+  q
 
   ## Table of Content
 
@@ -19,29 +19,29 @@
 
   ## Usage
 
-  ted
+  q
 
   ## Contributing
 
-  pet
+  q
 
   ## Installation
 
   To install necessary dependencies, run the following command:
 
-  bet
+  q
 
   ## Tests
 
   To run tests, run the following command:
   
-  npm
+  q
 
   ## License
 
-  This project  is licensed under the APACHE 2.0 license.
+  This project  is licensed under the GPL 3.0 license.
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at h@,,. You can find more of my work at [john](https://github.com/john/).
+  If you have any questions about the repo, open an issue or contact me directly at q. You can find more of my work at [john](https://github.com/john/).
 
