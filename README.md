@@ -1,12 +1,12 @@
 
 
-  # **q**
+  # **A**
 
 
-  ![GitHub license](https://img.shields.io/badge/license-GPL 3.0-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-BSD 3-blue.svg)
 
   ## Description 
-  q
+  A
 
   ## Table of Content
 
@@ -19,29 +19,29 @@
 
   ## Usage
 
-  q
+  A
 
   ## Contributing
 
-  q
+  A
 
   ## Installation
 
   To install necessary dependencies, run the following command:
 
-  q
+  A
 
   ## Tests
 
   To run tests, run the following command:
   
-  q
+  A
 
   ## License
 
-  This project  is licensed under the GPL 3.0 license.
+  This project  is licensed under the BSD 3 license.
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at q. You can find more of my work at [john](https://github.com/john/).
+  If you have any questions about the repo, open an issue or contact me directly at A. You can find more of my work at [john](https://github.com/john/).
 
