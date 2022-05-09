@@ -2,23 +2,42 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   // console.log(license);
-  if (license === 'None') {
-    return ''; // If user dont want any license returns none.
-  }else {
-    return `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)`
-    }
+  const badges = {
+    mit: `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)(https://choosealicense.com/licenses/mit/)`,
+    apache2.0: `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)(https://www.apache.org/licenses/LICENSE-2.0)`,
+    gpl3.0: `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)(https://choosealicense.com/licenses/gpl-3.0/)`,
+    bsd3: `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)(https://opensource.org/licenses/BSD-3-Clause)`
+  }
+
+      return badges[license];
+  // if (license === 'None') {
+  //   return ''; // If user dont want any license returns none.
+  // }else {
+  //   return `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)`
+  //   }
   }
 
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-
+const licenseLinks = {
+  mit: `[MIT](https://choosealicense.com/licenses/mit/)`,
+  apache2.0: `[APACHE 2.0]((https://www.apache.org/licenses/LICENSE-2.0))`,
+  gpl3.0: `[GPL 3.0](https://choosealicense.com/licenses/gpl-3.0/)`,
+  bsd3: `[BSD 3](https://opensource.org/licenses/BSD-3-Clause)`
+}
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if(license){
+    return `${this.renderLicenseLink(license)}`
+  }else {
+    return '';
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 // This lines creating MD file with user input.
@@ -27,7 +46,9 @@ function generateMarkdown(answers) {
 
   # **${answers.title}**
 
-  ${renderLicenseBadge(answers.license)}
+  ${this.renderLicenseBadge(answers.license)}
+
+  
 
   ## Description 
   ${answers.description}
@@ -73,3 +94,5 @@ function generateMarkdown(answers) {
 }
 
 module.exports = generateMarkdown;
+
+// ${renderLicenseBadge(answers.license)}
