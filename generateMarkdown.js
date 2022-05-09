@@ -4,8 +4,8 @@ function renderLicenseBadge(license) {
   // console.log(license);
   const badges = {
     mit: `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)(https://choosealicense.com/licenses/mit/)`,
-    apache2.0: `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)(https://www.apache.org/licenses/LICENSE-2.0)`,
-    gpl3.0: `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)(https://choosealicense.com/licenses/gpl-3.0/)`,
+    apache2: `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)(https://www.apache.org/licenses/LICENSE-2.0)`,
+    gpl3: `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)(https://choosealicense.com/licenses/gpl-3.0/)`,
     bsd3: `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)(https://opensource.org/licenses/BSD-3-Clause)`
   }
 
@@ -23,8 +23,8 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
 const licenseLinks = {
   mit: `[MIT](https://choosealicense.com/licenses/mit/)`,
-  apache2.0: `[APACHE 2.0]((https://www.apache.org/licenses/LICENSE-2.0))`,
-  gpl3.0: `[GPL 3.0](https://choosealicense.com/licenses/gpl-3.0/)`,
+  apache2: `[APACHE 2.0]((https://www.apache.org/licenses/LICENSE-2.0))`,
+  gpl3: `[GPL 3.0](https://choosealicense.com/licenses/gpl-3.0/)`,
   bsd3: `[BSD 3](https://opensource.org/licenses/BSD-3-Clause)`
 }
 }
@@ -47,9 +47,7 @@ function generateMarkdown(answers) {
   # **${answers.title}**
 
   ${this.renderLicenseBadge(answers.license)}
-
   
-
   ## Description 
   ${answers.description}
 
@@ -94,5 +92,9 @@ function generateMarkdown(answers) {
 }
 
 module.exports = generateMarkdown;
+
+// ${renderLicenseBadge(answers.license)}
+
+// ${this.renderLicenseBadge(answers.license)}
 
 // ${renderLicenseBadge(answers.license)}
