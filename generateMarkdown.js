@@ -33,7 +33,7 @@ const licenseLinks = {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if(license){
-    return `${this.renderLicenseLink(license)}`
+    return `${renderLicenseLink(license)}`
   }else {
     return '';
   }
