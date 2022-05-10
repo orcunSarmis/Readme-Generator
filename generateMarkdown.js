@@ -27,6 +27,7 @@ const licenseLinks = {
   "GPL 3.0": `[GPL 3.0](https://choosealicense.com/licenses/gpl-3.0/)`,
   "BSD 3": `[BSD 3](https://opensource.org/licenses/BSD-3-Clause)`
 }
+return licenseLinks[license];
 }
 
 // TODO: Create a function that returns the license section of README
