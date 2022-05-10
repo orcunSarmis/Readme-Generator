@@ -3,10 +3,10 @@
 function renderLicenseBadge(license) {
   // console.log(license);
   const badges = {
-    "MIT": `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)(https://choosealicense.com/licenses/mit/)`,
-    "APACHE 2.0": `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)(https://www.apache.org/licenses/LICENSE-2.0)`,
-    "GPL 3.0": `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)(https://choosealicense.com/licenses/gpl-3.0/)`,
-    "BSD 3": `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)(https://opensource.org/licenses/BSD-3-Clause)`
+    "MIT": `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)`,
+    "APACHE 2.0": `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)`,
+    "GPL 3.0": `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)`,
+    "BSD 3": `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)`
   }
 
       return badges[license];

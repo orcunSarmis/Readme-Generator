@@ -1,11 +1,11 @@
 
 
-  # **s**
+  # **q**
 
-  ![GitHub license](https://img.shields.io/badge/license-APACHE2.0-blue.svg)(https://www.apache.org/licenses/LICENSE-2.0)
+  ![GitHub license](https://img.shields.io/badge/license-BSD3-blue.svg)
   
   ## Description 
-  s
+  q
 
   ## Table of Content
 
@@ -18,29 +18,29 @@
 
   ## Usage
 
-  s
+  q
 
   ## Contributing
 
-  s
+  q
 
   ## Installation
 
   To install necessary dependencies, run the following command:
 
-  s
+  q
 
   ## Tests
 
   To run tests, run the following command:
   
-  s
+  q
 
   ## License
 
-  This project is licensed under the APACHE 2.0 license.
+  This project is licensed under the BSD 3 license.
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at s. You can find more of my work at [john](https://github.com/john/).
+  If you have any questions about the repo, open an issue or contact me directly at q. You can find more of my work at [john](https://github.com/john/).
 
