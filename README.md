@@ -1,11 +1,11 @@
 
 
-  # **j**
+  # **y**
 
-  [GPL 3.0](https://choosealicense.com/licenses/gpl-3.0/)
+  [APACHE 2.0]((https://www.apache.org/licenses/LICENSE-2.0))
   
   ## Description 
-  j
+  y
 
   ## Table of Content
 
@@ -18,29 +18,29 @@
 
   ## Usage
 
-  j
+  y
 
   ## Contributing
 
-  j
+  y
 
   ## Installation
 
   To install necessary dependencies, run the following command:
 
-  j
+  y
 
   ## Tests
 
   To run tests, run the following command:
   
-  j
+  y
 
   ## License
 
-  This project is licensed under the GPL 3.0 license.
+  This project is licensed under the APACHE 2.0 license.
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at j. You can find more of my work at [john](https://github.com/john/).
+  If you have any questions about the repo, open an issue or contact me directly at y. You can find more of my work at [john](https://github.com/john/).
 
