@@ -1,11 +1,11 @@
 
 
-  # **l**
+  # **o**
 
-  ![GitHub license](https://img.shields.io/badge/license-GPL3.0-blue.svg)
+  undefined
   
   ## Description 
-  l
+  o
 
   ## Table of Content
 
@@ -18,23 +18,23 @@
 
   ## Usage
 
-  l
+  o
 
   ## Contributing
 
-  l
+  o
 
   ## Installation
 
   To install necessary dependencies, run the following command:
 
-  l
+  o
 
   ## Tests
 
   To run tests, run the following command:
   
-  l
+  o
 
   ## License
 
@@ -42,5 +42,5 @@
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at l. You can find more of my work at [john](https://github.com/john/).
+  If you have any questions about the repo, open an issue or contact me directly at o. You can find more of my work at [john](https://github.com/john/).
 
