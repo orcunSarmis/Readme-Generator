@@ -7,7 +7,7 @@ function renderLicenseBadge(license) {
     "APACHE 2.0": `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)`,
     "GPL 3.0": `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)`,
     "BSD 3": `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)`,
-    
+    "None": ``
   }
 
       return badges[license];
@@ -27,7 +27,7 @@ const licenseLinks = {
   "APACHE 2.0": `[APACHE 2.0](https://www.apache.org/licenses/LICENSE-2.0)`,
   "GPL 3.0": `[GPL 3.0](https://choosealicense.com/licenses/gpl-3.0/)`,
   "BSD 3": `[BSD 3](https://opensource.org/licenses/BSD-3-Clause)`,
-  
+  "None": ``
 }
 return licenseLinks[license];
 }
@@ -36,7 +36,7 @@ return licenseLinks[license];
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if(license){
-    return `${renderLicenseLink(license)}`
+    return `This project is licensed under the${renderLicenseLink(license)}license.`;
   }else {
     return '';
   }
@@ -85,7 +85,7 @@ function generateMarkdown(answers) {
 
   ## License
 
-  This project is licensed under the ${renderLicenseSection(answers.license)} license.
+   ${renderLicenseSection(answers.license)} 
 
   ## Questions
 

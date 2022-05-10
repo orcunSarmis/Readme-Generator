@@ -1,11 +1,11 @@
 
 
-  # **s**
+  # **u**
 
-  undefined
+  
   
   ## Description 
-  s
+  u
 
   ## Table of Content
 
@@ -18,29 +18,29 @@
 
   ## Usage
 
-  s
+  u
 
   ## Contributing
 
-  s
+  u
 
   ## Installation
 
   To install necessary dependencies, run the following command:
 
-  s
+  u
 
   ## Tests
 
   To run tests, run the following command:
   
-  s
+  u
 
   ## License
 
-  This project is licensed under the undefined license.
+   This project is licensed under thelicense. 
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at s. You can find more of my work at [john](https://github.com/john/).
+  If you have any questions about the repo, open an issue or contact me directly at u. You can find more of my work at [john](https://github.com/john/).
 
