@@ -47,7 +47,7 @@ function generateMarkdown(answers) {
 
   # **${answers.title}**
 
-  ${renderLicenseSection(answers.license)}
+  ${renderLicenseBadge(answers.license)}
   
   ## Description 
   ${answers.description}

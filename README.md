@@ -1,11 +1,11 @@
 
 
-  # **y**
+  # **f**
 
-  [APACHE 2.0]((https://www.apache.org/licenses/LICENSE-2.0))
+  ![GitHub license](https://img.shields.io/badge/license-APACHE2.0-blue.svg)
   
   ## Description 
-  y
+  f
 
   ## Table of Content
 
@@ -18,23 +18,23 @@
 
   ## Usage
 
-  y
+  f
 
   ## Contributing
 
-  y
+  f
 
   ## Installation
 
   To install necessary dependencies, run the following command:
 
-  y
+  f
 
   ## Tests
 
   To run tests, run the following command:
   
-  y
+  f
 
   ## License
 
@@ -42,5 +42,5 @@
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at y. You can find more of my work at [john](https://github.com/john/).
+  If you have any questions about the repo, open an issue or contact me directly at f. You can find more of my work at [john](https://github.com/john/).
 
