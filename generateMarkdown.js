@@ -3,10 +3,10 @@
 function renderLicenseBadge(license) {
   // console.log(license);
   const badges = {
-    mit: `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)(https://choosealicense.com/licenses/mit/)`,
-    apache2: `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)(https://www.apache.org/licenses/LICENSE-2.0)`,
-    gpl3: `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)(https://choosealicense.com/licenses/gpl-3.0/)`,
-    bsd3: `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)(https://opensource.org/licenses/BSD-3-Clause)`
+    "MIT": `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)(https://choosealicense.com/licenses/mit/)`,
+    "APACHE 2.0": `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)(https://www.apache.org/licenses/LICENSE-2.0)`,
+    "GPL 3.0": `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)(https://choosealicense.com/licenses/gpl-3.0/)`,
+    "BSD 3": `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)(https://opensource.org/licenses/BSD-3-Clause)`
   }
 
       return badges[license];
@@ -33,7 +33,7 @@ const licenseLinks = {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if(license){
-    return `${renderLicenseLink(license)}`
+    return `${this.renderLicenseLink(license)}`
   }else {
     return '';
   }

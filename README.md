@@ -1,11 +1,11 @@
 
 
-  # **F**
+  # **a**
 
-  undefined
+  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)(https://choosealicense.com/licenses/mit/)
   
   ## Description 
-  F
+  a
 
   ## Table of Content
 
@@ -18,29 +18,29 @@
 
   ## Usage
 
-  F
+  a
 
   ## Contributing
 
-  F
+  a
 
   ## Installation
 
   To install necessary dependencies, run the following command:
 
-  F
+  a
 
   ## Tests
 
   To run tests, run the following command:
   
-  F
+  a
 
   ## License
 
-  This project is licensed under the BSD 3 license.
+  This project is licensed under the MIT license.
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at F. You can find more of my work at [john](https://github.com/john/).
+  If you have any questions about the repo, open an issue or contact me directly at a. You can find more of my work at [john](https://github.com/john/).
 
