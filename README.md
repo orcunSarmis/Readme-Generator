@@ -1,11 +1,11 @@
 
 
-  # **o**
+  # **m**
 
-  undefined
+  ![GitHub license](https://img.shields.io/badge/license-APACHE2.0-blue.svg)
   
   ## Description 
-  o
+  m
 
   ## Table of Content
 
@@ -18,29 +18,29 @@
 
   ## Usage
 
-  o
+  m
 
   ## Contributing
 
-  o
+  m
 
   ## Installation
 
   To install necessary dependencies, run the following command:
 
-  o
+  m
 
   ## Tests
 
   To run tests, run the following command:
   
-  o
+  m
 
   ## License
 
-  This project is licensed under the GPL 3.0 license.
+  This project is licensed under the APACHE 2.0 license.
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at o. You can find more of my work at [john](https://github.com/john/).
+  If you have any questions about the repo, open an issue or contact me directly at m. You can find more of my work at [john](https://github.com/john/).
 
