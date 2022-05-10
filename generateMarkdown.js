@@ -23,7 +23,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
 const licenseLinks = {
   "MIT": `[MIT](https://choosealicense.com/licenses/mit/)`,
-  "APACHE 2.0": `[APACHE 2.0]((https://www.apache.org/licenses/LICENSE-2.0))`,
+  "APACHE 2.0": `[APACHE 2.0](https://www.apache.org/licenses/LICENSE-2.0)`,
   "GPL 3.0": `[GPL 3.0](https://choosealicense.com/licenses/gpl-3.0/)`,
   "BSD 3": `[BSD 3](https://opensource.org/licenses/BSD-3-Clause)`
 }
@@ -83,7 +83,7 @@ function generateMarkdown(answers) {
 
   ## License
 
-  This project is licensed under the ${answers.license} license.
+  This project is licensed under the ${renderLicenseSection(answers.license)} license.
 
   ## Questions
 
