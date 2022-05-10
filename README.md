@@ -1,11 +1,11 @@
 
 
-  # **b**
+  # **j**
 
-  ![GitHub license](https://img.shields.io/badge/license-GPL3.0-blue.svg)
+  [GPL 3.0](https://choosealicense.com/licenses/gpl-3.0/)
   
   ## Description 
-  b
+  j
 
   ## Table of Content
 
@@ -18,23 +18,23 @@
 
   ## Usage
 
-  b
+  j
 
   ## Contributing
 
-  b
+  j
 
   ## Installation
 
   To install necessary dependencies, run the following command:
 
-  b
+  j
 
   ## Tests
 
   To run tests, run the following command:
   
-  
+  j
 
   ## License
 
@@ -42,5 +42,5 @@
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at b. You can find more of my work at [john](https://github.com/john/).
+  If you have any questions about the repo, open an issue or contact me directly at j. You can find more of my work at [john](https://github.com/john/).
 
