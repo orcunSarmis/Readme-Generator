@@ -1,11 +1,11 @@
 
 
-  # **W**
+  # **F**
 
   undefined
   
   ## Description 
-  W
+  F
 
   ## Table of Content
 
@@ -18,29 +18,29 @@
 
   ## Usage
 
-  W
+  F
 
   ## Contributing
 
-  W
+  F
 
   ## Installation
 
   To install necessary dependencies, run the following command:
 
-  W
+  F
 
   ## Tests
 
   To run tests, run the following command:
   
-  W
+  F
 
   ## License
 
-  This project is licensed under the GPL 3.0 license.
+  This project is licensed under the BSD 3 license.
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at W. You can find more of my work at [john](https://github.com/john/).
+  If you have any questions about the repo, open an issue or contact me directly at F. You can find more of my work at [john](https://github.com/john/).
 
