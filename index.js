@@ -44,7 +44,7 @@ const questions = [
     {
         type:'input',
         name:'tests',
-        message: 'What command should be run to run tests?  (npm test)'
+        message: 'What command should be run to run tests? (npm test)'
     },
     {
         type:'list',
