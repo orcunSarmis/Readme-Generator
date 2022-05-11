@@ -1,4 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
+
+const { emoji } = require("node-emoji");
+
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   // console.log(license);
@@ -38,7 +41,7 @@ function renderLicenseSection(license) {
   if(license === 'None'){
     return 'This project does not have any license.';
   }else {
-    return `This project is licensed under the${renderLicenseLink(license)}license.`;
+    return `This project is licensed under the ${renderLicenseLink(license)} license.`;
   }
 }
 
@@ -74,9 +77,9 @@ function generateMarkdown(answers) {
   ## Installation
 
   To install necessary dependencies, run the following command:
-
+  \`\`\`
   ${answers.installation}
-
+  \`\`\`
   ## Tests
 
   To run tests, run the following command:
