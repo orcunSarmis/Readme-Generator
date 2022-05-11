@@ -35,9 +35,9 @@ return licenseLinks[license];
 // TODO: Create a function that returns the license section of README
 // If there is no license, return None string
 function renderLicenseSection(license) {
-  if(license){
+  if(!license === 'None'){
     return `This project is licensed under the${renderLicenseLink(license)}license.`;
-  }else if (license === 'None'){
+  }else {
     return 'This project does not have any license.';
   }
 }

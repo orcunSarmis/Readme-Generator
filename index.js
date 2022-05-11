@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const generateMarkdown = require('./generateMarkdown')
 const fs = require('fs');
+const emoji = require('node-emoji');
 // TODO: Create an array of questions for user input
 // Readme questions.
 const questions = [
