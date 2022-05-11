@@ -93,8 +93,3 @@ function generateMarkdown(answers) {
 
 module.exports = generateMarkdown;
 
-// ${renderLicenseBadge(answers.license)}
-
-// ${this.renderLicenseBadge(answers.license)}
-
-// ${renderLicenseBadge(answers.license)}

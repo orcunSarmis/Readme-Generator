@@ -89,6 +89,3 @@ function askToUser() {
 askToUser();
 
 
-// filter(val) {
-//     return val.toLowerCase();
-// }
