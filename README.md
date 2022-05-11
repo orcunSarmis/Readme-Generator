@@ -1,11 +1,11 @@
 
 
-  # **m**
+  # **d**
 
   
   
   ## Description 
-  m
+  d
 
   ## Table of Content
 
@@ -18,23 +18,23 @@
 
   ## Usage
 
-  m
+  d
 
   ## Contributing
 
-  m
+  d
 
   ## Installation
 
   To install necessary dependencies, run the following command:
 
-  m
+  d
 
   ## Tests
 
   To run tests, run the following command:
   
-  m
+  d
 
   ## License
 
@@ -42,5 +42,5 @@
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at m. You can find more of my work at [john](https://github.com/john/).
+  If you have any questions about the repo, open an issue or contact me directly at d. You can find more of my work at [john](https://github.com/john/).
 
