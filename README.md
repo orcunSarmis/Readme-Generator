@@ -1,11 +1,11 @@
 
 
-  # **u**
+  # **h**
 
   
   
   ## Description 
-  u
+  h
 
   ## Table of Content
 
@@ -18,23 +18,23 @@
 
   ## Usage
 
-  u
+  h
 
   ## Contributing
 
-  u
+  h
 
   ## Installation
 
   To install necessary dependencies, run the following command:
 
-  u
+  h
 
   ## Tests
 
   To run tests, run the following command:
   
-  u
+  h
 
   ## License
 
@@ -42,5 +42,5 @@
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at u. You can find more of my work at [john](https://github.com/john/).
+  If you have any questions about the repo, open an issue or contact me directly at h. You can find more of my work at [john](https://github.com/john/).
 
