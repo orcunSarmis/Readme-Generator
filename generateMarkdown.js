@@ -2,7 +2,7 @@
 
 const { emoji } = require("node-emoji");
 
-// If there is no license, return an empty string
+// This lines create license badges.
 function renderLicenseBadge(license) {
   // console.log(license);
   const badges = {
@@ -12,18 +12,12 @@ function renderLicenseBadge(license) {
     "BSD 3": `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)`,
     "None": ``
   }
-
       return badges[license];
-  // if (license === 'None') {
-  //   return ''; // If user dont want any license returns none.
-  // }else {
-  //   return `![GitHub license](https://img.shields.io/badge/license-${license.replace(" ", "")}-blue.svg)`
-  //   }
   }
 
 
 // TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// These lines for license links.
 function renderLicenseLink(license) {
 const licenseLinks = {
   "MIT": `[MIT](https://choosealicense.com/licenses/mit/)`,
@@ -36,7 +30,7 @@ return licenseLinks[license];
 }
 
 // TODO: Create a function that returns the license section of README
-// If there is no license, return None string
+// If statement for none licnese case.
 function renderLicenseSection(license) {
   if(license === 'None'){
     return 'This project does not have any license.';
@@ -46,7 +40,7 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
-// This lines creating MD file with user input.
+// This lines creating MD file with user input, also \`\`\` section creates code blocks.
 function generateMarkdown(answers) {
   return `
 
@@ -83,9 +77,9 @@ function generateMarkdown(answers) {
   ## Tests
 
   To run tests, run the following command:
-  
+  \`\`\`
   ${answers.tests}
-
+  \`\`\`
   ## License
 
    ${renderLicenseSection(answers.license)} 

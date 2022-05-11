@@ -29,7 +29,7 @@ const questions = [
     {
         type:'input',
         name:'installation',
-        message: 'What command should be run to install dependencies? \`\`\` npm i \`\`\`' 
+        message: 'What command should be run to install dependencies? (npm i)' 
     },
     {
         type:'input',
@@ -44,7 +44,7 @@ const questions = [
     {
         type:'input',
         name:'tests',
-        message: 'What command should be run to run tests? \`\`\` npm test \`\`\`'
+        message: 'What command should be run to run tests?  (npm test)'
     },
     {
         type:'list',
