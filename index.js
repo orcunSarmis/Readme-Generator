@@ -69,7 +69,7 @@ function askToUser() {
         const md = generateMarkdown(answers);
 
         // TODO: Create a function to write README file
-        fs.writeFile('README.md-generated', md, function(err) {
+        fs.writeFile('README.md', md, function(err) {
             if (err) {
                 console.log('Could not save file.', err);
             } else {
