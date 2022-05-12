@@ -18,11 +18,14 @@ The README.md generator is a node.js application that uses user input from inqui
 ##Usage
 
 Clone the repo first and run the following command at the root of your project and answer the prompted questions:
+                  
+https://github.com/orcunSarmis/Readme-Generator                  
 
 ```
 npm i
 
 ```
+                  
 the application will then generate a README.md file.
                   
 ##Contributing
