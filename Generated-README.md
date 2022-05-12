@@ -1,12 +1,12 @@
 
 
-  # **d**
+  # **README.md Generator**
 
-  ![GitHub license](https://img.shields.io/badge/license-GPL3.0-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-BSD3-blue.svg)
   
   ## Description 
   
-  d
+  The README.md generator is a node.js application that uses user input from inquirer to populate a README.md file for user repository.
 
   ## Table of Content
 
@@ -19,29 +19,29 @@
 
   ## Usage
 
-  d
+  Clone the repo first and run the following command at the root of your project and answer the prompted questions: npm i
 
   ## Contributing
 
-  d
+  Ideas to improve this application are welcome: , email me please.
 
   ## Installation
 
   To install necessary dependencies, run the following command:
   ```
-  d
+  npm i
   ```
   ## Tests
 
   To run tests, run the following command:
   ```
-  d
+  npm test
   ```
   ## License
 
-   This project is licensed under the [GPL 3.0](https://choosealicense.com/licenses/gpl-3.0/) license. 
+   This project is licensed under the [BSD 3](https://opensource.org/licenses/BSD-3-Clause) license. 
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at d. You can find more of my work at [john](https://github.com/john/).
+  If you have any questions about the repo, open an issue or contact me directly at yorcunsarmis@gmail.com. You can find more of my work at [orcunSarmis](https://github.com/orcunSarmis/).
 
