@@ -1,7 +1,5 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 
-const { emoji } = require("node-emoji");
-
 // This lines create license badges.
 function renderLicenseBadge(license) {
   // console.log(license);
