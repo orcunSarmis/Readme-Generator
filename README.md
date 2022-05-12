@@ -3,7 +3,10 @@
 ![GitHub license](https://img.shields.io/badge/license-APACHE2.0-blue.svg)
 	
 ## Description
-	
+
+![generator-b](https://user-images.githubusercontent.com/79064464/168075112-c1d8ae04-3d2c-4b65-ac23-bcf16ee47e80.png)
+![generator-c](https://user-images.githubusercontent.com/79064464/168075144-bd95d8e7-949c-401e-808d-a254c5e2f4e3.png)
+
 The README.md generator is a node.js application that uses user input from inquirer to populate a README.md file for user repository.
 	
 ## Table of Content
@@ -19,7 +22,7 @@ The README.md generator is a node.js application that uses user input from inqui
 	
 Clone the repo first and run the following command at the root of your project and answer the prompted questions:
 	                  
-https://github.com/orcunSarmis/Readme-Generator                  
+https://github.com/orcunSarmis/Readme-Generator               
 	
 
 ```
