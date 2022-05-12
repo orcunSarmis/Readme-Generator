@@ -47,6 +47,7 @@ function generateMarkdown(answers) {
   ${renderLicenseBadge(answers.license)}
   
   ## Description 
+  
   ${answers.description}
 
   ## Table of Content
