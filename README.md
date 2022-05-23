@@ -38,7 +38,7 @@ https://drive.google.com/file/d/10VB87MXXNhVyy8VRi7qHZ6SAF09OKq72/view?usp=shari
 ## Contributing
 	
 
-Ideas to improve this application are welcome: , email me please.
+Ideas to improve this application are welcome, email me please.
 	
 ## Installation
 	 
