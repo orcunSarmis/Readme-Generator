@@ -8,9 +8,6 @@
 ![generator-c](https://user-images.githubusercontent.com/79064464/168075144-bd95d8e7-949c-401e-808d-a254c5e2f4e3.png)
 
 The README.md generator is a node.js application that uses user input from inquirer to populate a README.md file for user repository.
-
-Also please chechk the how to use demonstration video.
-https://drive.google.com/file/d/10VB87MXXNhVyy8VRi7qHZ6SAF09OKq72/view
 	
 ## Table of Content
 	
@@ -34,6 +31,9 @@ npm i
 ```
 	                  
 the application will then generate a README.md file.
+
+Click on link below to see a demo of the application:
+https://drive.google.com/file/d/10VB87MXXNhVyy8VRi7qHZ6SAF09OKq72/view?usp=sharing
 	                  
 ## Contributing
 	
